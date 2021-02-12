@@ -1,0 +1,299 @@
+* {
+    scroll-behavior: smooth;
+    font-family: serif,sans-serif,monospace;
+}
+
+@font-face {
+  font-family: AmaticSC-Regular;
+  src: url(AmaticSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: AmaticSC-Bold;
+  src: url(AmaticSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: angelina;
+  src: url(angelina.ttf);
+}
+
+@font-face {
+  font-family: handlee;
+  src: url(Handlee-Regular.ttf);
+}
+
+body {
+    min-width: 250px;
+    z-index: 1;
+}
+
+.heading > h3{
+  font-family: AmaticSC-Regular;
+    font-size: 5rem;
+}
+
+.heading > p{
+  font-family: angelina;
+    font-size:.35em;
+}
+
+.heading{
+  font-family: AmaticSC-Bold;
+    font-size: 6em;
+    overflow: hidden;
+}
+.subheading{
+  font-family: angelina;
+    font-size: 3em;
+}
+
+.subheading1 > * {
+  font-family: angelina;
+    font-size: 5vw;
+    padding: 10px;
+}
+
+.subheading2 > * {
+  font-family: angelina;
+    font-size: 4em;
+    padding: 10px;
+}
+
+.footerfont > * > *{
+    font-family: handlee;
+}
+
+.footerfont1 > p {
+    font-family: handlee;
+}
+
+.font1 > * {
+    font-family: handlee;
+    font-size: 2em;
+}
+
+.footer {
+    background-color: #7CC186;
+    padding: 10px;
+}
+
+.borderimg > img {
+    border: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.bgcolor1 {
+    background-color: #C2CC6E;
+}
+
+.bgcolor2 {
+    background-color: #A1CE7A;
+}
+
+.textcontent {
+    text-align: center;
+    border-color: #000000;
+    max-width:100%;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: angelina;
+    font-size: 3rem
+}
+
+.imgcontainer{
+  position:relative;
+  display:inline-block;
+}
+
+.imgcontainer .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:opacity 750ms ease-in-out;
+    border-radius: 50px; 
+}
+
+.imgcontainer:hover .overlay{
+  opacity:1;
+}
+
+.overlay span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+}
+
+.textbox {
+    max-height: 525px;
+    overflow: hidden;
+}
+
+.textcontent > img {
+    max-width: 100%;
+}
+
+.brandlogo > img {
+    width: 70px;
+}
+
+
+.footlink {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;    
+}
+
+.navbar {
+    background-color: #7CC186;
+    font-family: angelina;
+    transition: top 0.5 ease;
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+.nav-link {
+    font-family: angelina;
+    font-size: 1.25rem;
+}
+
+.jumbotron {
+    color: white;
+}
+
+.floattext {
+    position: relative;
+    z-index: -1;
+}
+
+.parallax {
+  background-image: url("waterimages/stingray-4392776_1920.jpg");
+  min-height: 250px; 
+  background-attachment: fixed;
+/*  background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sandybeach {
+    max-height: 525px;
+    overflow: hidden;
+}
+
+#snorkellingsubh {
+    background-image: url(waterimages/underwater-691415_1920.jpg);
+}
+
+#swimmingsubh {
+    background-image: url(waterimages/sunglasses-1284419_1920.jpg);
+}
+
+#boatingsubh {
+    background-image: url(waterimages/sunset-675847_1920.jpg);
+}
+
+#coastsubh {
+    background-image: url(islandimages/palm-607683_1920.jpg);
+}
+
+#raftingsubh {
+    background-image: url(islandimages/waterfall-1514145_1920.jpg);
+}
+
+#historysubh {
+    background-image: url(islandimages/jungle-2292850_1920.jpg);
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#naturesubh > p{
+    font-size: 1.7em;
+}
+
+#divingsubh > p, #snorkellingsubh > p, #swimmingsubh > p, #boatingsubh > p {
+    color: antiquewhite
+}
+
+#snorkelling, #golfing, #adventuring, #sleeping, #diving, #relaxing {
+    max-height: 525px;
+}
+
+#getstartedbtn {
+    background-color: #4CAB9B50;
+}
+
+#underwaterimg {
+    overflow: hidden;
+}
+
+#beach1 {
+    max-width: 100%;
+}
+
+#logo {
+    max-width: 75%;
+}
+
+#hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url('homepageimages/beachpalmtree.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-image2 {
+    background-image:url("homepageimages/sunsetresortpool.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    min-height: 250px; 
+    background-attachment: fixed;
+}
+
+#hero-image3 {
+    background-image:url("waterimages/turtle-543444_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 0px -200px;
+}
+
+#hero-image4 {
+    background-image:url("islandimages/islandview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+    .textcontent {
+        min-width: 50%;       
+    }
+}

@@ -1,0 +1,93 @@
+* {
+    scroll-behavior: smooth;
+    font-family: serif,sans-serif,monospace;
+}
+
+body {
+    background-color: #343A40;
+}
+
+.textcontent {
+    color:white;
+    text-align: center;
+    border-style: solid;
+    border width: 5px;
+    border-color: #000000;
+    border-radius: 15px;
+    background-color: #626567;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.brandlogo > img {
+    width: 70px;
+}
+
+.textcontent > figure > img {
+    max-width: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.row > div > img {
+    max-width: 25%
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/steam-locomotive-2108131_1920.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/model-train-1146828_1920.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/rail-3678287_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 60%;
+}
+
+.hero-image4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/train-19640_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 60%;
+}
+
+
+.jumbotron {
+    color: white;
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+    .textcontent {
+        min-width: 50%;
+    }
+}
+
+html {
+  font-size: 1rem;
+}
