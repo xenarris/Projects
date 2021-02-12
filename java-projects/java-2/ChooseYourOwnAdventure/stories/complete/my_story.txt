@@ -1,0 +1,34 @@
+You find yourself sprawled on the floor, eyes closed and still.
+2: Get up disoriented.
+3: Stay still for a bit.
+3
+
+Your ears pick up an eerie noise.
+4: Get up and look for the source.
+5: Stay still for a little longer.
+5
+
+The eerie noise fades to nothingness as the source moves away.
+6: Get up and look around.
+3: Stay put.
+3
+
+Your ears pick up an eerie noise.
+4: Get up and look for the source.
+5: Stay still for a little longer.
+5
+
+The eerie noise fades to nothingness as the source moves away.
+6: Get up and look around.
+3: Stay put.
+6
+
+You move away out of sight, but feel that you may have missed something.
+2: Go back.
+7: Not worth it, move on.
+2
+
+An unknown creature in the shadows quickly notices you and rips you to pieces.
+-1: You died. 
+-1
+

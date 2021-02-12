@@ -1,0 +1,19 @@
+You find yourself sprawled on the floor, eyes closed and still. : Get up disoriented. = 2 | Stay still for a bit. = 3
+An unknown creature in the shadows quickly notices you and rips you to pieces. : You died. = -1
+Your ears pick up an eerie noise. : Get up and look for the source. = 4 | Stay still for a little longer. = 5
+As you get up on your feet, you caught a glimpse of a creature making the eerie noise from behind. Hideous and grotesque, the creature was devouring what looks like a tiny man. : Attempt to pummel it. = 2 | Walk away as silently as you can. = 6 | Go back to the ground sprawled and become still. = 5
+The eerie noise fades to nothingness as the source moves away. : Get up and look around. = 6 | Stay put. = 3
+You move away out of sight, but feel that you may have missed something. : Go back. = 2 | Not worth it, move on. = 7
+You find yourself in a large tunnel. : Inspect the tunnel. = 8 | Continue on down the tunnel. = 11
+A natural tunnel, with large stalagmites and stalactites on the floor and ceiling. : Search the tunnel. = 9 | Continue on. = 11
+You found a person! Good or bad you don't know. But either way the person looks gravely injured. : Leave. = 11 | Help him. = 10
+You approach the injured person, a man, and he asks for medical supplies. His leg is bleeding profusely. : Arrogant Refusal. = 12 | Apologize and refuse. = 13
+The tunnel opens up to a large cavern. : Inspect the cavern. = 16 | Shout into the cavern for help. = 2
+The man throws an axe from who knows where in anger and kills you. : Death takes you and the man. = -1
+The man lets out a sigh in defeat, then expires from his injuries. : Continue into the tunnel. = 11 | Search his body. = 14
+You find a map of tunnels, which you assume is where you are. : Use the map to leave the tunnels. = 15
+You found a safe way out! With no injuries or scratches!. : The warmth of the sun embraces you. = -2
+You see an unknown creature slumbering in the center of the dimly lit cavern, a raging stream of unknown depths snakes across the cavern, and the rocky floor is damp. You also see a tunnel just past the creature. : Kill the creature! = 2 | Attempt to stealthily reach the other tunnel. = 17
+You take a few quiet steps forward but you are not as careful as you thought. You slip into the raging stream, sweeping you away. : Wake up. = 18 | Don't wake up. = 19
+The sun shines on you face, making it out of the tunnels. However, you look beaten up and cold from your trip in the stream. : Alive and outside you are, and that's what matters. = -2
+Warmth slowly fade from your body as hypothermia sets in from being wet and you no longer able to wake. : You died. = -1
