@@ -1,0 +1,11 @@
+.border
+{
+
+    border: 3px solid blue;
+}
+
+.noborder
+{
+    
+    border: 3px transparent;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/frogger.css">
+
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Frogger</title>
+  <!--
+    Jean-Kenneth Antonio
+    March 16, 2020
+    Update log @ scripts/frogger.js
+  -->
+</head>
+<body>
+  <br>
+  <h1 style="text-align: center;">Frogger V2.0</h1>
+  
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm border">
+        <h2>Directions:</h2>
+        <ul>
+          <li>W key - moves Frog Up</li>
+          <li>S key - moves Frog Down</li>
+          <li>A key - moves Frog Left</li>
+          <li>D key - moves Frog Right</li>
+          <li>Guide the frog to the body of the house across the street to win</li>
+        </ul>
+      
+        <input type="number" name="speed" id="carSpeed1" value="120">
+        <input type="number" name="speed" id="carSpeed2" value="60">
+        <br>
+        <button name="speed" id="btn">Change Speeds</button>
+        <br><br>
+      </div>
+      <div class="col-sm">
+        <canvas width="600px" height="600px"></canvas>
+      </div>
+      <div class="col-sm border">
+        <h3 style="color: transparent;"></h3>
+        <p id="currentTime"></p>
+        <p id="bestTime"></p>
+        <p id="winCount"></p>
+        <p id="lossCount"></p>
+        <p id="winRatio"></p>
+        
+        <button class="noshow" id = "btn2">Again?</button>
+        <br>
+        <label class="" for="btn3" id="btn3label">Start game?</label>
+        <br>
+        <button class="" id = "btn3">Start!</button>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <br> <br>
+  <img id="house1" src="images/houseclip.png" class="noshow" width="100px" height="100px" alt="HouseClipArt">
+
+
+
+  <script src="scripts/classes.js"></script>
+  <script src="scripts/froggerfunctions.js"></script>
+  <script src="scripts/frogger.js"></script>
+</body>
+</html>

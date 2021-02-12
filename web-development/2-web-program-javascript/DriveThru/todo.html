@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <ul id="items">
+        <li>Study</li>
+        <li>Run</li>
+        <li>Eat</li>
+        <li>Sleep</li>
+    </ul>
+    <script >
+    // replace Eat with Fast
+    // get the parent Node of list items
+    let parentNode = document.getElementById("items");
+
+    // create a new node with Fast as the text
+    let newItem = document.createElement('li');
+    newItem.textContent = "Fast";
+
+    // use the replaceChild method takes two arguments
+    // (newItem, oldItem)
+    parentNode.replaceChild(newItem,parentNode.children[2] );
+
+
+    // remove the first child node (Study)
+    parentNode.removeChild(parentNode.children[0]);
+    
+    // insert a new node before the last node
+    let otherItem = document.createElement('li');
+    otherItem.textContent = "Shop";
+
+    // add otherItem before the last child of the parent node
+    parentNode.insertBefore(otherItem,parentNode.lastElementChild);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.border
+{
+    border: solid 3px black;
+}
+
+.noborder
+{
+    border: solid transparent 3px;
+}
+
+.redfont
+{
+    color: red;
+}
+
+.greenfont
+{
+    color: green;
+}

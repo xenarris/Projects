@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build-A-Bear</title>
+    <link rel="stylesheet" href="styles/buildbear.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Build-A-Bear</h1>
+
+    <br>
+
+    <form action="success.html" method="GET" id="buildbearform">
+
+    <label>
+        Bear Name:
+        <input type="text" id="bearname">
+        <span id = "error-name" class="hidden">* Please name your bear!</span>
+    </label>
+    <br>
+
+    <label>
+        <h2>Color:</h2>
+        <select name="color" id="color">
+            <option value="none">Select a Color</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="darkorange">Dark Orange</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <span id = "error-color" class="hidden">* Please pick a color for your bear!</span>
+    </label>
+
+    <label>
+        <h2>Size</h2>
+        Please Choose One:
+        <span id = "error-size" class="hidden">* Please the size of your bear!</span>
+        <br>
+        <label>
+            <input type="radio" name="size" id="small">
+            Small
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="size" id="medium">
+            Medium
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="size" id="large">
+            Large
+        </label>
+    </label>
+
+    
+    <br>
+    
+    <label>
+        <h2>Add-ons</h2>
+        <label>
+            <input type="checkbox" name="addons" id="hairbow">
+            Hair bow
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="addons" id="bowtie">
+            Bow tie
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="addons" id="tophat">
+            Top Hat
+        </label>
+    </label>
+
+    <br>
+    <br>
+
+    <input type="submit" value="Submit Button">
+
+</form>
+
+    <script src="scripts/validationFunctions.js"></script>
+    <script src="scripts/buildbear.js"></script>
+</body>
+</html>
