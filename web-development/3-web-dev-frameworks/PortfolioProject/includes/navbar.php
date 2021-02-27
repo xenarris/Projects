@@ -14,6 +14,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="/305/PortfolioProject/admin.php">Admin Page</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://github.com/xenarris/Projects/tree/green-river-class-projects/web-development/3-web-dev-frameworks/PortfolioProject">Github</a>
+                </li>
             </ul>
             </div>
         </div>
