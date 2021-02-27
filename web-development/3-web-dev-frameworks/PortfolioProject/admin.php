@@ -47,7 +47,7 @@ include('includes/navbar.php');
 -->
 <div class="container">
 <!-- The table-->
-<div class="container hidden" id="guestcontainer">
+<div class="container col-10" id="guestcontainer">
     <br>
     <br>
 <!--    class="display"-->
