@@ -1,6 +1,6 @@
 
 //check login
-document.getElementById("sendlogin").onclick = validate;
+//document.getElementById("sendlogin").onclick = validate;
 
 //checks if empty then prompts
 function validate() {
