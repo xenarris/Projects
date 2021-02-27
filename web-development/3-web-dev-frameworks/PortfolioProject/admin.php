@@ -16,7 +16,7 @@ include('includes/navbar.php');
 </div>
 
 <!-- login box -->
-<div class="container bg-form-color rounded" id="signinbox">
+<!--<div class="container bg-form-color rounded" id="signinbox">
     <div class="row justify-content-center align-items-center" style="height:50vh">
         <div class="col-4">
             <div class="card">
@@ -44,7 +44,7 @@ include('includes/navbar.php');
         </div>
     </div>
 </div>
-
+-->
 <div class="container">
 <!-- The table-->
 <div class="container hidden" id="guestcontainer">
@@ -69,8 +69,8 @@ include('includes/navbar.php');
         <tbody>
         <?php
         //error reporting
-        ini_set('display_errors', 1);
-        error_reporting(E_ALL);
+        //ini_set('display_errors', 1);
+        //error_reporting(E_ALL);
 
         //connect to database data
         require ('/home/jantonio/public_html/305/connect.php');
